@@ -11,4 +11,4 @@ read regex_input filename
 #grep $regex_input $filename
 grep -c -P '[0-9]{3}-[0-9]{3}-[0-9]{4}' regex_practice.txt
 grep -c -P '303-[0-9]{3}-[0-9]{4}'  regex_practice.txt
-grep -c -P '@geocities.com'   regex_practice.txt &> email_results.txt
+grep  -P '@geocities.com'   regex_practice.txt >> email_results.txt
